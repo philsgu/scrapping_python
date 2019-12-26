@@ -17,5 +17,5 @@ try:
         count += 1
         print (f"The amount time passed in sec: {stopwatch}")
         break   
-except:
+except ValueError:
     print ("CTRL-D Pressed")
