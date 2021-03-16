@@ -4,6 +4,7 @@ from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 from time import sleep
+# finds PDF in URL and save to folder desingated
 
 def askurl():
     askurl = input ("Enter URL: ")
